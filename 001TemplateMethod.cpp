@@ -2,8 +2,8 @@
 using namespace std;
 
 /*
-Template Method is used, when a set of algorithm steps are common between subclasses and deferring steps are implemented in subclasses.
-without changing the algorithm step;
+Teamplate Method is used, When there is an algorithm in when there are command step applies for all the subclass and let the differing 
+step be implemented in the subclass.
 
 For example, A bank client may have more the one bank account type (Saving, current, credit ..), and he want to withdraw the amount.   
 With the above scenario all account type transaction, first connect to Database, check the account exist, perform the deposit and close Database 
